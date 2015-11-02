@@ -13,7 +13,7 @@ $(document).ready(
     }
   );
 
-$('#header').load(
+$(window).load(
 		function()
 		{
 			$('body').css("paddingTop", $('#header').height());
