@@ -10,7 +10,7 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
-			alert("changes!!!asdasdasdasdasds! ");
+			alert("3:36");
     }
   );
 
