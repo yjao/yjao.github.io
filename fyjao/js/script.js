@@ -10,6 +10,7 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
+			alert("changes!!!sdsd! ");
     }
   );
 
@@ -18,6 +19,6 @@ $("header.html").load(
 		{
 			$('body').css("paddingTop", $('#header').height());
 			alert($('#header').height());
-			alert("changes!!!sdsd! ");
+			
     }
 	);
