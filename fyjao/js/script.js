@@ -10,6 +10,8 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
+			body.paddingTop = $('#header').height();
+			alert("changed!");
     }
   );
 
