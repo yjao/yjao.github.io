@@ -11,7 +11,7 @@ $(document).ready(
     {
       $('#header').load("header.html");
 			$('body').css("paddingTop", $('#header').height());
-			alert("changed!");
+			alert($('#header').height());
     }
   );
 
