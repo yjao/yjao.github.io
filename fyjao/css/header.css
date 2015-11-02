@@ -1,5 +1,6 @@
 #mainBlock
 {
+	overflow: hidden;
   display: block;
   background-color: #FFFFFF;
   width: 100%;
