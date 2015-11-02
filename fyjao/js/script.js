@@ -13,11 +13,11 @@ $(document).ready(
     }
   );
 
-$(window).load(
+$("#header").load(
 		function()
 		{
 			$('body').css("paddingTop", $('#header').height());
 			alert($('#header').height());
-			alert("changes reflected");
+			alert("changes!!!! ");
     }
 	);
