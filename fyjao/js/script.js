@@ -10,15 +10,14 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
-			alert("changes!!!sdsd! ");
+			alert("changes!!!asdasdasdasdasds! ");
     }
   );
 
-$("header.html").load(
+$("#header").ready(
 		function()
 		{
 			$('body').css("paddingTop", $('#header').height());
 			alert($('#header').height());
-			
     }
 	);
