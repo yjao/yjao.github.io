@@ -10,7 +10,7 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
-			$(body).css("paddingTop", $('#header').height());
+			$('body').css("paddingTop", $('#header').height());
 			alert("changed!");
     }
   );
