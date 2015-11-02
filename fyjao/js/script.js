@@ -10,8 +10,13 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
-			$('body').css("paddingTop", $('#header').height());
-			alert($('#header').height());
     }
   );
 
+$(window).load(
+		function()
+		{
+			$('body').css("paddingTop", $('#header').height());
+			alert($('#header').height());
+    }
+	);
