@@ -3,7 +3,8 @@
   background-color: #FFFFFF;
   width: 100%;
   position: fixed;
-  
+  top: 0;
+  left: 0;
   font-weight: bold;
   font-family: sans-serif;
   font-variant: small-caps;
@@ -14,7 +15,6 @@ div
   overflow: hidden;
   margin: auto;
   text-align: center;
-  
   border: 1px solid black;
 }
 
