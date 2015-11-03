@@ -9,16 +9,16 @@
 $(document).ready(
     function()
     {
-      alert("1:12");
+      alert("1:14");
 			$('#header').load("header.html");
-			$('#header').load(
+			
+    }
+  );
+
+$('#header').load(
 				function()
 				{
 					$('body').css("paddingTop", $('#header').height());
 					alert($('#header').height());
 				}
 			);
-    }
-  );
-
-
