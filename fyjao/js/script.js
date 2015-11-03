@@ -9,11 +9,10 @@
 $(document).ready(
     function()
     {
-      alert("1:15");
+      //alert("");
 			$('#header').load("header.html", function()
 				{
 					$('body').css("paddingTop", $('#header').height());
-					alert($('#header').height());
 				});
 			
     }
