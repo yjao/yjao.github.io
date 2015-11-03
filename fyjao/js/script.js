@@ -9,8 +9,8 @@
 $(document).ready(
     function()
     {
-			alert("1:02");
-			$('#header').prepend("header.html");
+      alert("1:12");
+			$('#header').load("header.html");
 			$('#header').load(
 				function()
 				{
