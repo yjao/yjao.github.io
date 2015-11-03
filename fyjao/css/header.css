@@ -17,7 +17,6 @@ div
   overflow: hidden;
   margin: auto;
   text-align: center;
-  border: 1px solid black;
 }
 
 ul
@@ -42,7 +41,7 @@ a:link, a:visited
   border-radius: 15%;
     
   color: #FFFFFF;
-  background-color: #98bf21;
+  background-color: #83E28A;
   text-align: center;
   padding: 4px;
   text-decoration: none;
