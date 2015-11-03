@@ -10,11 +10,11 @@ $(document).ready(
     function()
     {
       $('#header').load("header.html");
-			alert("12:53");
+			alert("12:54");
     }
   );
 
-$('#header').ready(
+$('body').load(
 		function()
 		{
 			$('body').css("paddingTop", $('#header').height());
