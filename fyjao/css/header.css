@@ -49,8 +49,8 @@ a:link, a:visited
 {
   display: block;
   width: 100%;
-  border-top-left-radius: 20%;
-	border-top-right-radius: 20%;
+  border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
 	color: #FFFFFF;
   background-color: #83E28A;
   text-align: center;
