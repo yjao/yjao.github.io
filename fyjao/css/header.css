@@ -43,17 +43,15 @@ li
   float: left;
   width: 20%;
   padding: 0 2%;
-  border-top-left-radius: 20%;
-	border-top-right-radius: 20%;
 }
 
 a:link, a:visited
 {
   display: block;
   width: 100%;
-  border-radius: 15%;
-    
-  color: #FFFFFF;
+  border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	color: #FFFFFF;
   background-color: #83E28A;
   text-align: center;
   padding: 4px;
