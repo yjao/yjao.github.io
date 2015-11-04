@@ -18,3 +18,7 @@ div
   display: block;
 }
 
+#contactLink a:link
+{
+  color: blue;
+}
