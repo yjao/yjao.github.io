@@ -16,7 +16,7 @@ $(document).ready(
 
 var displayVersion = function()
 {
-  alert("139");
+  $('#version').text(10.06);
 };
 
 var addPadding = function()
