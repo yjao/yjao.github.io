@@ -16,7 +16,7 @@ $(document).ready(
 
 var headerLoaded = function()
 {
-  displayVersion("testing media queries");
+  displayVersion("138");
 	addPadding();
 	colorTab();
 };

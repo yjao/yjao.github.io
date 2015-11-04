@@ -19,12 +19,26 @@ div
   display: block;
 }
 
-@media (max-width: 400px) {
-  html { background: red; }
+/* mobile: landscape mode+ */
+@media (min-width: 480px)
+{
+  div { background: red; }
 }
-@media (min-width: 401px) and (max-width: 800px) {
-  html { background: green; }
+
+/* tablet: portrait mode+ */
+@media (min-width: 600px)
+{
+  div { background: green; }
 }
-@media (min-width: 801px) {
-  html { background: blue; }
+
+/* tablet: landscape mode+ */
+@media (min-width: 768px)
+{
+  div { background: blue; }
+}
+
+/* desktop+ */
+@media (min-width: 1024px)
+{
+  div { background: black; }
 }
