@@ -11,16 +11,21 @@ $(document).ready(
     {
       displayVersion();
 			$('#header').load("header.html", addPadding);
-			
+			colorTab();
     }
   );
 
 var displayVersion = function()
 {
-  alert("11:29");
+  alert("1147");
 };
 
 var addPadding = function()
 {
 	$('body').css("paddingTop", $('#header').height());
+};
+
+var colorTab = function()
+{
+  $('#header.linkHome').css('background-color', '#FFF252');
 };
