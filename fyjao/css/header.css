@@ -35,7 +35,7 @@ li
   padding: 0 2%;
 }
 
-#tabLink a:link, a:visited
+#tabLink a:link, #tabLink a:visited
 {
   display: block;
   width: 100%;
