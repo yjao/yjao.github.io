@@ -16,7 +16,7 @@ $(document).ready(
 
 var headerLoaded = function()
 {
-  displayVersion(1154);
+  displayVersion(1157);
 	addPadding();
 	colorTab();
 };
@@ -35,7 +35,7 @@ var addPadding = function()
 var colorTab = function()
 {
   var fontColor = 'black';
-  var bgColor = '#FFF252';
+  var bgColor = '#FFF574';
   switch (tabID)
   {
     case 0:
