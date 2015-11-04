@@ -11,18 +11,18 @@ $(document).ready(
     {
       displayVersion();
 			$('#header').load("header.html", addPadding);
-			colorTab();
     }
   );
 
 var displayVersion = function()
 {
-  alert("1246");
+  alert("1255");
 };
 
 var addPadding = function()
 {
 	$('body').css("paddingTop", $('#header').height());
+	colorTab();
 };
 
 var colorTab = function()
