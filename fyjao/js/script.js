@@ -17,7 +17,7 @@ $(document).ready(
 
 var displayVersion = function()
 {
-  alert("1235");
+  alert("1239");
 };
 
 var addPadding = function()
@@ -27,7 +27,7 @@ var addPadding = function()
 
 var colorTab = function()
 {
-  $('#linkHome').css('background-color', 'black');
+  $('#linkHome').css('color', 'black');
   //alert($('#header').getElementById('#linkHome').style.color);
   /*$('#linkHome').load('header.html #linkHome');
   $('#linkHome').css('background-color', '#FFF252');
