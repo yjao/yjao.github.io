@@ -6,18 +6,17 @@
   );
   */
   
-$('#header').load("header.html", headerLoaded);
-  
-/*$(document).ready(
+
+$(document).ready(
     function()
     {
 			$('#header').load("header.html", headerLoaded);
     }
-  );*/
+  );
 
 var headerLoaded = function()
 {
-  displayVersion(1031);
+  displayVersion(1034);
 	addPadding();
 	colorTab();
 };
