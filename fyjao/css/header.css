@@ -2,7 +2,7 @@
 {
 	overflow: hidden;
   display: block;
-  background-color: #FFFFFF;
+  background-color: #1379DF;
   width: 100%;
   position: fixed;
   top: 0;
@@ -41,7 +41,7 @@ a:link, a:visited
   border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	color: black;
-  background-color: #83E28A;
+  background-color: #58A5F1;
   text-align: center;
   padding: 4px;
   text-decoration: none;
@@ -49,5 +49,5 @@ a:link, a:visited
 
 a:hover, a:active
 {
-  background-color: #7A991A;
+  background-color: #D7C600;
 }
