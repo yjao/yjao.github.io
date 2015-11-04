@@ -35,7 +35,7 @@ li
   padding: 0 2%;
 }
 
-a:link, a:visited
+#tabLink a:link, a:visited
 {
   display: block;
   width: 100%;
@@ -48,7 +48,7 @@ a:link, a:visited
   text-decoration: none;
 }
 
-a:hover, a:active
+#tabLink a:hover, a:active
 {
   background-color: #D7C600;
 }
