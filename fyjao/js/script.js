@@ -16,7 +16,7 @@ $(document).ready(
 
 var displayVersion = function()
 {
-  alert("1255");
+  alert("1257");
 };
 
 var addPadding = function()
@@ -27,12 +27,10 @@ var addPadding = function()
 
 var colorTab = function()
 {
-  alert($('#linkHome').text());
-  alert($('#linkHome').css('color'));
-  //$('#linkHome').css('color', 'black');
+  $('#linkHome').css('color', 'black');
+  $('#linkHome').css('background-color', '#FFF252');
   //alert($('#header').getElementById('#linkHome').style.color);
   /*$('#linkHome').load('header.html #linkHome');
-  $('#linkHome').css('background-color', '#FFF252');
   alert("Header time!");
   $('#header').css('background-color', 'black');*/
 };
