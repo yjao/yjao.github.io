@@ -19,17 +19,6 @@ div
   text-align: center;
 }
 
-#trapezoid
-{
-  border-top-left-radius: 20%;
-	border-top-right-radius: 20%;
-	border-bottom: 100px solid blue;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 100px;
-	width: 100px;
-}
-
 ul
 {
   list-style-type: none;
@@ -51,7 +40,7 @@ a:link, a:visited
   width: 100%;
   border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
-	color: #FFFFFF;
+	color: black;
   background-color: #83E28A;
   text-align: center;
   padding: 4px;

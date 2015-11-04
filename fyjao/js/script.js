@@ -10,10 +10,12 @@ $(document).ready(
     function()
     {
       //alert("");
-			$('#header').load("header.html", function()
-				{
-					$('body').css("paddingTop", $('#header').height());
-				});
+			$('#header').load("header.html", addPadding);
 			
     }
   );
+
+var addPadding = function()
+				{
+					$('body').css("paddingTop", $('#header').height());
+				};
