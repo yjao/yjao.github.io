@@ -9,13 +9,18 @@
 $(document).ready(
     function()
     {
-      //alert("");
+      displayVersion();
 			$('#header').load("header.html", addPadding);
 			
     }
   );
 
+var displayVersion = function()
+{
+  alert("10:52");
+};
+
 var addPadding = function()
-				{
-					$('body').css("paddingTop", $('#header').height());
-				};
+{
+	$('body').css("paddingTop", $('#header').height());
+};
