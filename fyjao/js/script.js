@@ -9,14 +9,20 @@
 $(document).ready(
     function()
     {
-      displayVersion();
-			$('#header').load("header.html", addPadding);
+			$('#header').load("header.html", headerLoaded);
     }
   );
 
-var displayVersion = function()
+var headerLoaded = function()
 {
-  $('#version').text(10.06);
+  displayVersion(1009);
+	addPadding();
+	colorTab();
+};
+
+var displayVersion = function(versionID)
+{
+  $('#version').text("Version: "+versionID);
 };
 
 var addPadding = function()
