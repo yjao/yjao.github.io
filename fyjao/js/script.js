@@ -16,7 +16,7 @@ $(document).ready(
 
 var displayVersion = function()
 {
-  alert("130");
+  alert("139");
 };
 
 var addPadding = function()
@@ -27,7 +27,17 @@ var addPadding = function()
 
 var colorTab = function()
 {
-  alert($('tabID'));
-  $('tabID').css('color', 'black');
-  $('tabID').css('background-color', '#FFF252');
+  var fontColor = 'black';
+  var bgColor = '#FFF252';
+  switch (tabID)
+  {
+    case 0:
+      $('#linkHome').css('color', fontColor);
+      $('#linkHome').css('background-color', bgColor);
+      break;
+    case 2:
+      $('#linkContact').css('color', fontColor);
+      $('#linkContact').css('background-color', bgColor);
+      break;
+  }
 };
