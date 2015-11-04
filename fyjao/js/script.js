@@ -16,7 +16,7 @@ $(document).ready(
 
 var headerLoaded = function()
 {
-  displayVersion(1146);
+  displayVersion(1154);
 	addPadding();
 	colorTab();
 };
