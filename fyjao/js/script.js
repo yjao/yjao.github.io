@@ -17,7 +17,7 @@ $(document).ready(
 
 var displayVersion = function()
 {
-  alert("10:52");
+  alert("11:29");
 };
 
 var addPadding = function()

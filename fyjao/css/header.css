@@ -10,6 +10,7 @@
   font-weight: bold;
 	font-family: sans-serif;
   font-variant: small-caps;
+  color: white;
 }
 
 div
@@ -40,7 +41,7 @@ a:link, a:visited
   width: 100%;
   border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
-	color: black;
+	color: white;
   background-color: #58A5F1;
   text-align: center;
   padding: 4px;
