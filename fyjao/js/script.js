@@ -29,8 +29,8 @@ var displayVersion = function(versionID)
 
 var addPadding = function()
 {
-  alert($('#header').height());
-  $('body').css("paddingTop", $('#header').height());
+  displayVersion($('#header').height());
+  //$('body').css("paddingTop", $('#header').height());
 };
 
 var colorTab = function()
