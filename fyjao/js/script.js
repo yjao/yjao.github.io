@@ -11,13 +11,12 @@ $(document).ready(
     function()
     {
 			$('#header').load("header.html", headerLoaded);
-			$(window).resize(addPadding);
     }
   );
   
 var headerLoaded = function()
 {
-  displayVersion("922");
+  displayVersion("924");
 	addPadding();
 	colorTab();
 };
@@ -30,12 +29,11 @@ var displayVersion = function(versionID)
 var addPadding = function()
 {
   var padding;
-  alert($('header').css("position"));
   if ($('header').css("position") == "fixed")
-    /*padding = $('#header').height();
+    padding = $('#header').height();
   else
-    padding = "20px";*/
-  $('body').css("paddingTop", $('#header').height());
+    padding = "20px";
+  $('body').css("paddingTop", padding);
 };
 
 var colorTab = function()
