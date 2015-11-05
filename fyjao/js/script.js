@@ -2,12 +2,13 @@ $(document).ready(
     function()
     {
 			$('#header').load("header.html", headerLoaded);
+	    $(window).resize(addPadding);
     }
   );
   
 var headerLoaded = function()
 {
-  displayVersion("1013");
+  displayVersion("1017");
 	addPadding();
 	colorTab();
 };
