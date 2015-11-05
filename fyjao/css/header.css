@@ -8,19 +8,19 @@
   top: 0;
   left: 0;
   font-weight: bold;
-	font-family: Helvetica, sans-serif;
+	font-family: Arial;
   font-variant: small-caps;
   color: white;
 }
 
-div
+#mainBlock div
 {
   overflow: hidden;
   margin: auto;
   text-align: center;
 }
 
-ul
+#mainBlock ul
 {
   list-style-type: none;
   margin: 0;
@@ -28,7 +28,7 @@ ul
   overflow: hidden;
 }
 
-li
+#mainBlock li
 {
   float: left;
   width: 20%;
@@ -48,7 +48,7 @@ li
   text-decoration: none;
 }
 
-#tabLink a:hover, a:active
+#tabLink a:hover, #tabLink a:active
 {
   background-color: #D7C600;
 }

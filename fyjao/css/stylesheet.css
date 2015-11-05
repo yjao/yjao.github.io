@@ -3,16 +3,10 @@
 body
 {
   background-color: #FFF574;
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, Helvetica, sans-serif;
   color: black;
 	text-align: center;
 }
-
-/*div
-{
-	background: red;
-  display: block;
-}*/
 
 #profile
 	{
