@@ -1,6 +1,6 @@
 #mainBlock
 {
-  font-size: 2em;
+  font-size: 1.5em;
   display: block;
   background-color: #1379DF;
   width: 100%;
@@ -38,7 +38,7 @@
 {
   display: block;
   width: 100%;
-	border-radius: 1.5em;
+	border-radius: 2em;
 	color: white;
   background-color: #58A5F1;
   text-align: center;
