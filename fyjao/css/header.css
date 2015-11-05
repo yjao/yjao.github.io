@@ -4,7 +4,6 @@
   display: block;
   background-color: #1379DF;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   font-weight: bold;
@@ -58,9 +57,9 @@
 {
 	div { background: gray; }
   
-  #mainBlock ul
+  #mainBlock
   {
-    
+    position: fixed;
   }
   #mainBlock li
   {
