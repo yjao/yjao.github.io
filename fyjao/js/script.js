@@ -11,20 +11,13 @@ $(document).ready(
     function()
     {
 			$('#header').load("header.html", headerLoaded);
+			$(window).resize(addPadding);
     }
   );
   
-$(window).resize(
-  function()
-  {
-    displayVersion($('#header').height());
-    //addPadding();
-  }
-);
-
 var headerLoaded = function()
 {
-  displayVersion("844");
+  displayVersion("849");
 	addPadding();
 	colorTab();
 };
@@ -36,7 +29,8 @@ var displayVersion = function(versionID)
 
 var addPadding = function()
 {
-	$('body').css("paddingTop", $('#header').height());
+  displayVersion($('#header').height());
+  $('body').css("paddingTop", $('#header').height());
 };
 
 var colorTab = function()
