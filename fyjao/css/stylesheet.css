@@ -6,6 +6,7 @@ body
   font-family: Calibri, Helvetica, sans-serif;
   color: black;
 	text-align: center;
+	font-size: 2em;
 }
 
 #main-content div
@@ -68,11 +69,20 @@ body
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
+  body
+  {
+    font-size: 1.5em;
+  }
 }
 
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
+  body
+  {
+    font-size: 1.3em;
+  }
+  
 	#main-content div
 	{
 		display: inline-block;
@@ -99,5 +109,8 @@ body
 /* desktop+ */
 @media (min-width: 1024px)
 {
-
+  body
+  {
+    font-size: 1em;
+  }
 }

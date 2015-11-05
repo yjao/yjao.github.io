@@ -1,6 +1,6 @@
 #mainBlock
 {
-	overflow: hidden;
+  font-size: 2em;
   display: block;
   background-color: #1379DF;
   width: 100%;
@@ -55,6 +55,11 @@
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
+  #mainBlock
+  {
+    font-size: 1.5em;
+  }
+  
   #mainBlock li
   {
     float: left;
@@ -66,5 +71,23 @@
   {
     border-bottom-left-radius: 0;
   	border-bottom-right-radius: 0;
+  }
+}
+
+/* tablet: landscape mode+ */
+@media (min-width: 768px)
+{
+  #mainBlock
+  {
+    font-size: 1.3em;
+  }
+}
+  
+/* desktop+ */
+@media (min-width: 1024px)
+{
+  #mainBlock
+  {
+    font-size: 1em;
   }
 }
