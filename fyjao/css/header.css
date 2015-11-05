@@ -30,17 +30,16 @@
 
 #mainBlock li
 {
-  float: left;
-  width: 20%;
-  padding: 0 2%;
+  width: 90%;
+  padding: 5px;
+  margin: auto;
 }
 
 #tabLink a:link, #tabLink a:visited
 {
   display: block;
   width: 100%;
-  border-top-left-radius: 2em;
-	border-top-right-radius: 2em;
+	border-radius: 2em;
 	color: white;
   background-color: #58A5F1;
   text-align: center;
@@ -51,4 +50,28 @@
 #tabLink a:hover, #tabLink a:active
 {
   background-color: #D7C600;
+}
+
+
+/* desktop+ */
+@media (min-width: 1024px)
+{
+	div { background: gray; }
+  
+  #mainBlock ul
+  {
+    
+  }
+  #mainBlock li
+  {
+    float: left;
+    width: 20%;
+    padding: 0 2%;
+  }
+  
+  #tabLink a:link, #tabLink a:visited
+  {
+    border-bottom-left-radius: 0;
+  	border-bottom-right-radius: 0;
+  }
 }

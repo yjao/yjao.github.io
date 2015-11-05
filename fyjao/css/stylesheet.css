@@ -13,10 +13,12 @@ body
 		background-image: url("http://polinger.daccinfosystems.com/wp/wp-content/uploads/2015/04/v2-cute-cat-picture.jpg");
     background-size: cover;
 		width: 150px;
-    height: 0;
-    padding-bottom: 150px;
+    height: 150px;
     border: solid white 2px;
     border-radius: 50%;
+    margin: auto;
+    vertical-align: top;
+    /*margin-top: 20px;*/
 	}
 
 #blurb
@@ -27,6 +29,7 @@ body
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
+  div { background: green; }
 }
 
 /* tablet: landscape mode+ */
@@ -38,8 +41,7 @@ body
 	{
 		/*border: 1px solid black;*/
 		display: inline-block;
-		/*float: left;*/
-		
+		margin: auto;
 	}
 	
 	#blurb
