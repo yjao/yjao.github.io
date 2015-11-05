@@ -17,7 +17,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("849");
+  displayVersion("905");
 	addPadding();
 	colorTab();
 };
@@ -29,8 +29,8 @@ var displayVersion = function(versionID)
 
 var addPadding = function()
 {
-  displayVersion($('#header').height());
-  //$('body').css("paddingTop", $('#header').height());
+  //displayVersion($('#header').height());
+  $('body').css("paddingTop", $('#header').height());
 };
 
 var colorTab = function()
@@ -42,6 +42,10 @@ var colorTab = function()
     case 0:
       $('#linkHome').css('color', fontColor);
       $('#linkHome').css('background-color', bgColor);
+      break;
+    case 1:
+      $('#linkWork').css('color', fontColor);
+      $('#linkWork').css('background-color', bgColor);
       break;
     case 2:
       $('#linkContact').css('color', fontColor);

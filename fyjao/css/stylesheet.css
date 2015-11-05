@@ -29,13 +29,13 @@ body
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
-  div { background: green; }
+  div { background: lightgreen; }
 }
 
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
-	div { background: blue; }
+	div { background: lightblue; }
 	
 	#main-content div
 	{
