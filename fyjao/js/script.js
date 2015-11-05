@@ -29,7 +29,7 @@ var displayVersion = function(versionID)
 
 var addPadding = function()
 {
-  displayVersion($('#header').height());
+  alert($('#header').height());
   $('body').css("paddingTop", $('#header').height());
 };
 
