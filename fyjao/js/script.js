@@ -2,14 +2,14 @@ $(document).ready(
     function()
     {
 			$('#header').load("header.html", headerLoaded);
-	    $(window).resize(addPadding);
+	    //$(window).resize(addPadding);
     }
   );
   
 var headerLoaded = function()
 {
-  displayVersion("1019");
-	addPadding();
+  displayVersion("1020");
+	//addPadding();
 	colorTab();
 };
 
