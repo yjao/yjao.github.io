@@ -1,44 +1,73 @@
+/* mobile: landscape mode+ */
+
 body
 {
   background-color: #FFF574;
-  text-align: center;
   font-family: sans-serif;
   color: black;
+	text-align: center;
 }
+
+/*div
+{
+	background: red;
+  display: block;
+}*/
 
 #portrait
 {
-  width: 20%;
-  height: 20%;
-  border: solid white 2px;
+	padding: 10px;
+  height: 50px;
+	width: 50px;
+	border: solid white 2px;
   border-radius: 50%;
 }
 
-div
-{
-  display: block;
-}
-
-/* mobile: landscape mode+ */
-@media (min-width: 480px)
-{
-  div { background: red; }
-}
 
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
   div { background: green; }
+	#portrait
+	{
+		height: 100px;
+		width: 100px;
+	}
 }
 
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
-  div { background: blue; }
+	div { background: blue; }
+	#portrait
+	{
+		max-width: 100%;
+		height: auto;
+	}
+	
+	#main-content div
+	{
+		border: 1px solid black;
+		display: inline-block;
+		float: left;
+	}
+	
+	#profile
+	{
+		background-image: url("img/linkedin.png");
+		width: 25%;
+		height: auto;
+	}
+	
+	#blurb
+	{
+		width: 70%;
+	}
 }
 
 /* desktop+ */
 @media (min-width: 1024px)
 {
-  div { background: black; }
+	div { background: gray; }
+
 }
