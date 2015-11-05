@@ -7,7 +7,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("947");
+  displayVersion("1004");
 	addPadding();
 	colorTab();
 };
@@ -20,8 +20,8 @@ var displayVersion = function(versionID)
 var addPadding = function()
 {
   var padding;
-  alert($('#header').position());
-  if ($('#header').position() == "fixed")
+  alert($('#header').css("position"));
+  if ($('#header').css("position") == "fixed")
     padding = $('#header').height();
   else
     padding = "20px";
