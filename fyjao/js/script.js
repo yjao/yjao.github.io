@@ -1,12 +1,3 @@
-/*$(document).ready(
-    function()
-    {
-      $("#portrait").fadeOut(1000);
-    }
-  );
-  */
-  
-
 $(document).ready(
     function()
     {
@@ -16,7 +7,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("925");
+  displayVersion("927");
 	addPadding();
 	colorTab();
 };
@@ -29,7 +20,7 @@ var displayVersion = function(versionID)
 var addPadding = function()
 {
   var padding;
-  alert($('#header').height());
+  alert($('header').css("position"));
   if ($('header').css("position") == "fixed")
     padding = $('#header').height();
   /*else
