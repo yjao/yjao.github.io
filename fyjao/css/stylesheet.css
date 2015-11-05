@@ -73,7 +73,6 @@ body
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
-	
 	#main-content div
 	{
 		display: inline-block;
