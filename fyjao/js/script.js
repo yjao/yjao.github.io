@@ -7,7 +7,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("927");
+  displayVersion("930");
 	addPadding();
 	colorTab();
 };
@@ -20,11 +20,11 @@ var displayVersion = function(versionID)
 var addPadding = function()
 {
   var padding;
-  alert($('header').css("position"));
-  if ($('header').css("position") == "fixed")
+  alert($('#header').css("position"));
+  if ($('#header').position)
     padding = $('#header').height();
-  /*else
-    padding = "20px";*/
+  else
+    padding = "20px";
   $('body').css("paddingTop", padding);
 };
 
