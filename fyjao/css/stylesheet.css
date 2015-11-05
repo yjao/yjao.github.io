@@ -26,6 +26,12 @@ body
   text-align: left;
 }
 
+#project
+{
+  
+}
+
+
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
