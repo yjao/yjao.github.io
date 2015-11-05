@@ -2,7 +2,6 @@
 
 #mainBlock
 {
-  font-size: 1em;
   display: block;
   background-color: #1379DF;
   width: 100%;
@@ -57,11 +56,6 @@
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
-  #mainBlock
-  {
-    font-size: 1.3em;
-  }
-  
   #mainBlock li
   {
     float: left;
@@ -80,18 +74,12 @@
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
-  #mainBlock
-  {
-    font-size: 1.3em;
-  }
+  
 }
   
   
 /* desktop+ */
 @media (min-width: 1024px)
 {
-  #mainBlock
-  {
-    font-size: 1em;
-  }
+  
 }

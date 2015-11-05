@@ -8,7 +8,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("1138");
+  //displayVersion("1138");
 	//addPadding();
 	colorTab();
 };
