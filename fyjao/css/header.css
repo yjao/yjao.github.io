@@ -52,8 +52,8 @@
 }
 
 
-/* desktop+ */
-@media (min-width: 768px)
+/* tablet: portrait mode+ */
+@media (min-width: 600px)
 {
   #mainBlock li
   {
