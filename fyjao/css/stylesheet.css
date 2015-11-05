@@ -31,7 +31,7 @@ body
   text-align: left;
 }
 
-#project-container
+.project-container
 {
   display: block;
   width: 95%;
@@ -39,19 +39,19 @@ body
   border: 2px solid black;
 }
 
-#project-col1 div
+.project-col1 div
 {
   display: inline-block;
   width: 30%;
 }
 
-#project-col2 div
+.project-col2 div
 {
   display: inline-block;
   width: 60%;
 }
 
-#project-col1 img
+.project-col1 img
 {
   width: 100%;
   height: auto;
@@ -61,13 +61,11 @@ body
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
-  div { background: lightgreen; }
 }
 
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
-	div { background: lightblue; }
 	
 	#main-content div
 	{
@@ -84,6 +82,5 @@ body
 /* desktop+ */
 @media (min-width: 1024px)
 {
-	div { background: gray; }
 
 }
