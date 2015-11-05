@@ -67,6 +67,11 @@ body
 	{
 		width: 70%;
 	}
+	
+	#section
+	{
+	  padding: 10px;
+	}
 }
 
 /* desktop+ */
