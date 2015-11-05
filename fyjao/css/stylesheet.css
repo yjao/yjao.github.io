@@ -14,22 +14,13 @@ body
   display: block;
 }*/
 
-#portrait
-{
-	padding: 10px;
-  height: 50px;
-	width: 50px;
-	border: solid white 2px;
-  border-radius: 50%;
-}
-
 #profile
 	{
 		background-image: url("http://polinger.daccinfosystems.com/wp/wp-content/uploads/2015/04/v2-cute-cat-picture.jpg");
-		width: 40%;
-    height: 0;
     background-size: cover;
-    padding-bottom: 40%;
+		width: 150px;
+    height: 0;
+    padding-bottom: 150px;
     border: solid white 2px;
     border-radius: 50%;
 	}
@@ -50,23 +41,12 @@ body
 @media (min-width: 768px)
 {
 	div { background: blue; }
-	#portrait
-	{
-		max-width: 100%;
-		height: auto;
-	}
 	
 	#main-content div
 	{
 		/*border: 1px solid black;*/
 		display: inline-block;
 		float: left;
-	}
-	
-	#profile
-	{
-    width: 25%;
-    padding-bottom: 25%;
 	}
 	
 	#blurb
