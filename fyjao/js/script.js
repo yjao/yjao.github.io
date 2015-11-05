@@ -17,13 +17,14 @@ $(document).ready(
 $(window).resize(
   function()
   {
-    addPadding();
+    displayVersion($('#header').height());
+    //addPadding();
   }
 );
 
 var headerLoaded = function()
 {
-  displayVersion("842");
+  displayVersion("844");
 	addPadding();
 	colorTab();
 };
