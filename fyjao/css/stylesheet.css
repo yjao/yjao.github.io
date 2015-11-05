@@ -27,12 +27,6 @@ body
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
-  div { background: green; }
-	#portrait
-	{
-		height: 100px;
-		width: 100px;
-	}
 }
 
 /* tablet: landscape mode+ */
@@ -44,7 +38,8 @@ body
 	{
 		/*border: 1px solid black;*/
 		display: inline-block;
-		float: left;
+		/*float: left;*/
+		
 	}
 	
 	#blurb
