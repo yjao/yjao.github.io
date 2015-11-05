@@ -7,7 +7,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("1012");
+  displayVersion("1013");
 	addPadding();
 	colorTab();
 };
@@ -21,7 +21,7 @@ var addPadding = function()
 {
   var padding;
   var mediaQuery = window.matchMedia("(min-width: 600px)");
-  if (mediaQuery)
+  if (mediaQuery.matches)
     padding = $('#header').height();
   else
     padding = "20px";
