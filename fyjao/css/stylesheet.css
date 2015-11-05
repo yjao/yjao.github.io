@@ -56,7 +56,11 @@ body
 	{
 		background-image: url("http://polinger.daccinfosystems.com/wp/wp-content/uploads/2015/04/v2-cute-cat-picture.jpg");
 		width: 25%;
-		height: auto;
+    height: 0;
+    background-size: cover;
+    padding-bottom: 25%;
+    border: solid white 2px;
+    border-radius: 50%;
 	}
 	
 	#blurb
