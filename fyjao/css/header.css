@@ -1,3 +1,5 @@
+/* mobile: landscape mode+ */
+
 #mainBlock
 {
   font-size: 1.5em;
@@ -74,6 +76,7 @@
   }
 }
 
+
 /* tablet: landscape mode+ */
 @media (min-width: 768px)
 {
@@ -82,6 +85,7 @@
     font-size: 1.3em;
   }
 }
+  
   
 /* desktop+ */
 @media (min-width: 1024px)
