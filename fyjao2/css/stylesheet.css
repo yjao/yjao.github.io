@@ -1,0 +1,119 @@
+/* mobile: landscape mode+ */
+
+body
+{
+  background-color: #ffffcc;
+  font-family: Calibri, Helvetica, sans-serif;
+  color: black;
+	text-align: center;
+	font-size: 2em;
+}
+
+#main-content div
+{
+  margin-top: 20px;
+}
+
+#profile
+	{
+		background-image: url("../img/profile.png");
+    background-size: cover;
+		width: 150px;
+    height: 150px;
+    border: solid white 2px;
+    border-radius: 50%;
+    margin: auto;
+    vertical-align: top;
+	}
+
+#blurb
+{
+  text-align: left;
+}
+
+.project-container
+{
+  display: inline-block;
+  background-color: #58A5F1;
+  padding: 20px;
+  border-radius: 1em;
+  color: white;
+}
+
+.project-col1
+{
+  display: inline-block;
+  width: 80%;
+}
+
+.project-col2
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 90%;
+}
+
+.project-col1 img
+{
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-container a:link, .project-container a:visited
+{
+  color: white;
+}
+
+
+/* tablet: portrait mode+ */
+@media (min-width: 600px)
+{
+  body
+  {
+    font-size: 1.5em;
+  }
+}
+
+
+/* tablet: landscape mode+ */
+@media (min-width: 768px)
+{
+  body
+  {
+    font-size: 1.3em;
+  }
+  
+	#main-content div
+	{
+		display: inline-block;
+	}
+	
+	#blurb
+	{
+	  padding-left: 20px;
+		width: 70%;
+	}
+	
+	.project-col1
+  {
+    width: 30%;
+  }
+  
+  .project-col2
+  {
+    width: 60%;
+    padding: 10px;
+  }
+}
+
+
+/* desktop+ */
+@media (min-width: 1024px)
+{
+  body
+  {
+    font-size: 1em;
+  }
+}

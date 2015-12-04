@@ -1,0 +1,85 @@
+/* mobile: landscape mode+ */
+
+#mainBlock
+{
+  display: block;
+  background-color: #1379DF;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+	font-family: Arial;
+  font-variant: small-caps;
+  color: white;
+}
+
+#mainBlock div
+{
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+}
+
+#mainBlock ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#mainBlock li
+{
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+}
+
+#tabLink a:link, #tabLink a:visited
+{
+  display: block;
+  width: 100%;
+	border-radius: 2em;
+	color: white;
+  background-color: #58A5F1;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#tabLink a:hover, #tabLink a:active
+{
+  background-color: #D7C600;
+}
+
+
+/* tablet: portrait mode+ */
+@media (min-width: 600px)
+{
+  #mainBlock li
+  {
+    float: left;
+    width: 20%;
+    padding: 0 2%;
+  }
+  
+  #tabLink a:link, #tabLink a:visited
+  {
+    border-bottom-left-radius: 0;
+  	border-bottom-right-radius: 0;
+  }
+}
+
+
+/* tablet: landscape mode+ */
+@media (min-width: 768px)
+{
+  
+}
+  
+  
+/* desktop+ */
+@media (min-width: 1024px)
+{
+  
+}
