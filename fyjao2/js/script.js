@@ -38,10 +38,14 @@ var colorTab = function()
       $('#linkHome').css('background-color', bgColor);
       break;
     case 1:
+      $('#linkAbout').css('color', fontColor);
+      $('#linkAbout').css('background-color', bgColor);
+      break;
+    case 2:
       $('#linkWork').css('color', fontColor);
       $('#linkWork').css('background-color', bgColor);
       break;
-    case 2:
+    case 3:
       $('#linkContact').css('color', fontColor);
       $('#linkContact').css('background-color', bgColor);
       break;
