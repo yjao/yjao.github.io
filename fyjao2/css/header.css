@@ -3,14 +3,17 @@
 #mainBlock
 {
   display: block;
-  background-color: #0D3965;
+  margin: 20px;
+  border: 20px;
+  border-color: #0D3965;
+  background-color: #ffffcc;
   width: 100%;
   top: 0;
   left: 0;
   font-weight: bold;
 	font-family: Arial;
   font-variant: small-caps;
-  color: white;
+  color: black;
 }
 
 #mainBlock div
