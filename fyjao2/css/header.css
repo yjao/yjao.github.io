@@ -38,7 +38,7 @@
 #tabLink a:link, #tabLink a:visited
 {
   display: block;
-  width: 90%;
+  width: 100%;
 	border-radius: 2em;
 	color: white;
   background-color: #58A5F1;
