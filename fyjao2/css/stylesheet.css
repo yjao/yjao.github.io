@@ -2,7 +2,7 @@
 
 body
 {
-  padding: 10px 10%;
+  padding: 10px;
   background-color: #ffffcc;
   font-family: Calibri, Helvetica, sans-serif;
   color: black;
@@ -73,6 +73,7 @@ body
 {
   body
   {
+    padding: 10px 10%;
     font-size: 1.8em;
   }
 }
