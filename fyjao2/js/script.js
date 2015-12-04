@@ -30,7 +30,7 @@ var addPadding = function()
 var colorTab = function()
 {
   var fontColor = 'black';
-  var bgColor = '#FFF574';
+  var bgColor = '#ffffcc';
   switch (tabID)
   {
     case 0:
