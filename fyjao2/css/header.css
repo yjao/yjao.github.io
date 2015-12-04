@@ -38,7 +38,7 @@
 #tabLink a:link, #tabLink a:visited
 {
   display: block;
-  width: 100%;
+  width: 90%;
 	border-radius: 2em;
 	color: white;
   background-color: #58A5F1;
@@ -56,10 +56,17 @@
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
 {
+
+}
+
+
+/* tablet: landscape mode+ */
+@media (min-width: 768px)
+{
   #mainBlock li
   {
     float: left;
-    width: 20%;
+    width: 25%;
     padding: 0 2%;
   }
   
@@ -68,13 +75,6 @@
     border-bottom-left-radius: 0;
   	border-bottom-right-radius: 0;
   }
-}
-
-
-/* tablet: landscape mode+ */
-@media (min-width: 768px)
-{
-  
 }
   
   

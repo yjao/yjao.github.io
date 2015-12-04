@@ -8,7 +8,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("1053");
+  //displayVersion("1053");
 	//addPadding();
 	colorTab();
 };
@@ -48,6 +48,10 @@ var colorTab = function()
     case 3:
       $('#linkContact').css('color', fontColor);
       $('#linkContact').css('background-color', bgColor);
+      break;
+    case 4:
+      $('#linkSummary').css('color', fontColor);
+      $('#linkSummary').css('background-color', bgColor);
       break;
   }
 };
