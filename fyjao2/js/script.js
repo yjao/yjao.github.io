@@ -3,15 +3,14 @@ $(document).ready(
     {
       alert("Loading");
 			$('#header').load("header.html", headerLoaded);
-			$('#linkHome').load(function(){alert("Ready INSIDE");});
     }
   );
 
-$('#linkHome').load(function(){alert("Ready OUTSIDE");});
+$(document).load(function(){alert("Ready OUTSIDE");});
   
 var headerLoaded = function()
 {
-  displayVersion("1205");
+  displayVersion("1206");
 	//addPadding();
 	colorTab();
 	resizeTabs();
