@@ -65,7 +65,7 @@ body
 /*.project-container*/ a:link, /*.project-container*/ a:visited
 {
   background-color: #58A5F1;
-  border-radius: 1em;
+  border-radius: 2em;
   color: white;
 }
 
