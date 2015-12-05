@@ -1,16 +1,13 @@
 $(document).ready(
     function()
     {
-      alert("Loading");
 			$('#header').load("header.html", headerLoaded);
     }
   );
 
-$(window).load(function(){alert("Ready OUTSIDE");});
-  
 var headerLoaded = function()
 {
-  displayVersion("1207");
+  displayVersion("1230");
 	//addPadding();
 	colorTab();
 	resizeTabs();
