@@ -6,11 +6,11 @@ $(document).ready(
     }
   );
 
-$(document).load(function(){alert("Ready OUTSIDE");});
+$(window).load(function(){alert("Ready OUTSIDE");});
   
 var headerLoaded = function()
 {
-  displayVersion("1206");
+  displayVersion("1207");
 	//addPadding();
 	colorTab();
 	resizeTabs();
