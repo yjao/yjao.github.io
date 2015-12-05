@@ -8,10 +8,10 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("1120");
+  displayVersion("1136");
 	//addPadding();
-	resizeTabs();
 	colorTab();
+	resizeTabs();
 };
 
 var displayVersion = function(versionID)
