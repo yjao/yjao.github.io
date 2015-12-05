@@ -20,6 +20,7 @@ var displayVersion = function(versionID)
 
 var addPadding = function()
 {
+  displayVersion("9:22");
   var mediaQuery = window.matchMedia("(min-width: 600px)");
   if (mediaQuery.matches)
     $('body').css("paddingTop", $('#header').height());
@@ -55,3 +56,10 @@ var colorTab = function()
       break;
   }
 };
+
+$(window).resize(
+    function()
+    {
+			$('#version').text($('#version').text+".");
+    }
+  );
