@@ -8,7 +8,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  //displayVersion("1053");
+  displayVersion("932");
 	//addPadding();
 	colorTab();
 };
@@ -60,6 +60,22 @@ var colorTab = function()
 $(window).resize(
     function()
     {
-			$('#version').text($('#version').text+".");
+      var linkHomeHeight = $('#linkHome').height();
+      var linkAboutHeight = $('#linkAbout').height();
+      var linkWorkHeight = $('#linkWork').height();
+      var linkContactHeight = $('#linkContact').height();
+      var linkSummaryHeight = $('#linkSummary').height();
+      
+      // Find which tab is biggest in height.
+      var max1 = Math.max(linkHomeHeight, linkAboutHeight);
+      var max2 = Math.max(linkWorkHeight, linkContactHeight);
+      var max3 = Math.max(max1, max2);
+      var max = Math.max(max3, linkSummaryHeight);
+      
+      $('#linkHome').css('height', max);
+      $('#linkAbout').css('height', max);
+      $('#linkWork').css('height', max);
+      $('#linkContact').css('height', max);
+      $('#linkSummary').css('height', max);
     }
   );
