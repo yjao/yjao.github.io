@@ -1,6 +1,7 @@
 $(document).ready(
     function()
     {
+      alert("Loading");
 			$('#header').load("header.html", headerLoaded);
 			$('#linkHome').ready(function(){alert("Ready INSIDE");});
     }
@@ -10,7 +11,7 @@ $('#linkHome').ready(function(){alert("Ready OUTSIDE");});
   
 var headerLoaded = function()
 {
-  displayVersion("1201");
+  displayVersion("1202");
 	//addPadding();
 	colorTab();
 	resizeTabs();
