@@ -10,6 +10,7 @@ var headerLoaded = function()
 {
   displayVersion("1120");
 	//addPadding();
+	resizeTabs();
 	colorTab();
 };
 
