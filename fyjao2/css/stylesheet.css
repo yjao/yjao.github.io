@@ -59,14 +59,7 @@ a:hover, a:active
 {
   display: inline-block;
   padding: 20px;
-  color: pink;
-}
-
-.project-col2
-{
-  /*vertical-align: top;
-  display: inline-block;
-  width: 90%;*/
+  vertical-align: middle;
 }
 
 .project-col1 img
@@ -75,6 +68,13 @@ a:hover, a:active
   width: 100%;
   height: auto;
   display: block;
+}
+
+.project-col2
+{
+  /*vertical-align: top;
+  display: inline-block;
+  width: 90%;*/
 }
 
 
@@ -110,12 +110,12 @@ a:hover, a:active
 	
 	.project-col1
   {
-    width: 30%;
+    width: 40%;
   }
   
   .project-col2
   {
-    width: 60%;
+    width: 50%;
     padding: 10px;
   }
 }
@@ -127,5 +127,15 @@ a:hover, a:active
   body
   {
     font-size: 1.3em;
+  }
+  
+  .project-col1
+  {
+    width: 30%;
+  }
+  
+  .project-col2
+  {
+    width: 60%;
   }
 }
