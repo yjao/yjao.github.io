@@ -1,17 +1,17 @@
 $(document).ready(
     function()
     {
-			$('#header').load("header.html", headerLoaded);
+			$('#header').load("header.html");//, headerLoaded);
+			$('#header').ready(headerLoaded);
 	    //$(window).resize(addPadding);
     }
   );
   
 var headerLoaded = function()
 {
-  displayVersion("1144");
+  displayVersion("1155");
 	//addPadding();
 	colorTab();
-	alert("asdf");
 	resizeTabs();
 };
 
