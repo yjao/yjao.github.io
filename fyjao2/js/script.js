@@ -8,10 +8,9 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("1136");
+  displayVersion("1140");
 	//addPadding();
 	colorTab();
-	resizeTabs();
 };
 
 var displayVersion = function(versionID)
@@ -56,6 +55,7 @@ var colorTab = function()
       $('#linkSummary').css('background-color', bgColor);
       break;
   }
+  resizeTabs();
 };
 
 $(window).resize(
