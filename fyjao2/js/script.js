@@ -7,7 +7,7 @@ $(document).ready(
 
 var headerLoaded = function()
 {
-  displayVersion("1230");
+  displayVersion("1239");
 	//addPadding();
 	colorTab();
 	resizeTabs();
@@ -49,10 +49,6 @@ var colorTab = function()
       $('#linkContact').css('color', fontColor);
       $('#linkContact').css('background-color', bgColor);
       break;
-    case 4:
-      $('#linkSummary').css('color', fontColor);
-      $('#linkSummary').css('background-color', bgColor);
-      break;
   }
 };
 
@@ -71,23 +67,19 @@ var resizeTabs = function()
   $('#linkAbout').css('height', auto);
   $('#linkWork').css('height', auto);
   $('#linkContact').css('height', auto);
-  $('#linkSummary').css('height', auto);
   
   var linkHomeHeight = $('#linkHome').height();
   var linkAboutHeight = $('#linkAbout').height();
   var linkWorkHeight = $('#linkWork').height();
   var linkContactHeight = $('#linkContact').height();
-  var linkSummaryHeight = $('#linkSummary').height();
   
   // Find which tab is biggest in height.
   var max1 = Math.max(linkHomeHeight, linkAboutHeight);
   var max2 = Math.max(linkWorkHeight, linkContactHeight);
-  var max3 = Math.max(max1, max2);
-  var max = Math.max(max3, linkSummaryHeight);
+  var max = Math.max(max1, max2);
   
   $('#linkHome').css('height', max);
   $('#linkAbout').css('height', max);
   $('#linkWork').css('height', max);
   $('#linkContact').css('height', max);
-  $('#linkSummary').css('height', max);
 };
