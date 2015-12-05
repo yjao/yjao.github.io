@@ -8,7 +8,7 @@ $(document).ready(
   
 var headerLoaded = function()
 {
-  displayVersion("937");
+  displayVersion("945");
 	//addPadding();
 	colorTab();
 };
@@ -18,7 +18,7 @@ var displayVersion = function(versionID)
   $('#version').text("Version: "+versionID);
 };
 
-var addPadding = function()
+/*var addPadding = function()
 {
   displayVersion("9:22");
   var mediaQuery = window.matchMedia("(min-width: 600px)");
@@ -26,7 +26,7 @@ var addPadding = function()
     $('body').css("paddingTop", $('#header').height());
   else
     $('main-content').css("paddingTop", "20px");
-};
+};*/
 
 var colorTab = function()
 {
