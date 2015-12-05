@@ -24,6 +24,13 @@ a:hover, a:active
   background-color: #D7C600;
 }
 
+#backToTop
+{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 #main-content div
 {
   margin-top: 20px;

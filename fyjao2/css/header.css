@@ -35,22 +35,6 @@
   margin: auto;
 }
 
-#backToTop a:link, #backToTop a:visited
-{
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 1px 10px;
-  background-color: #58A5F1;
-  border-radius: 2em;
-  color: white;
-}
-
-#backToTop a:hover, #backToTop a:active
-{
-  background-color: #D7C600;
-}
-
 #tabLink a:link, #tabLink a:visited
 {
   display: block;
