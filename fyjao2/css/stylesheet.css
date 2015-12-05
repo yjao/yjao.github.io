@@ -35,7 +35,7 @@ body
 .project-container
 {
   display: inline-block;
-  background-color: #58A5F1;
+  background-color: #0D3965;
   padding: 20px;
   border-radius: 1em;
   color: white;
@@ -64,7 +64,14 @@ body
 
 .project-container a:link, .project-container a:visited
 {
+  background-color: #58A5F1;
+  border-radius: 1em;
   color: white;
+}
+
+.project-container a:hover, .project-container a:active
+{
+  background-color: #0D3965;
 }
 
 
