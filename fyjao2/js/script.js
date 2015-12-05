@@ -1,16 +1,16 @@
 $(document).ready(
     function()
     {
-			$('#header').load("header.html");//, headerLoaded);
-	    //$(window).resize(addPadding);
+			$('#header').load("header.html", headerLoaded);
+			$('#header').ready(function(){alert("Ready INSIDE");});
     }
   );
 
-$('#header').ready(headerLoaded);
+$('#header').ready(function(){alert("Ready OUTSIDE");});
   
 var headerLoaded = function()
 {
-  displayVersion("1157");
+  displayVersion("1200");
 	//addPadding();
 	colorTab();
 	resizeTabs();
