@@ -45,6 +45,7 @@
   text-align: center;
   padding: 4px;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 #tabLink a:hover, #tabLink a:active

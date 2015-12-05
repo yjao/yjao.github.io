@@ -46,7 +46,7 @@ a:hover, a:active
   text-align: left;
 }
 
-.project-container div
+.project-container
 {
   display: inline-block;
   background-color: #0D3965;
@@ -55,10 +55,11 @@ a:hover, a:active
   color: white;
 }
 
-.project-col1
+.project-container div
 {
-  /*display: inline-block;
-  width: 80%;*/
+  display: inline-block;
+  padding: 20px;
+  color: pink;
 }
 
 .project-col2
