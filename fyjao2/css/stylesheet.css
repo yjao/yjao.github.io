@@ -62,16 +62,16 @@ body
   display: block;
 }
 
-.project-container a:link, .project-container a:visited
+/*.project-container*/ a:link, /*.project-container*/ a:visited
 {
   background-color: #58A5F1;
   border-radius: 1em;
   color: white;
 }
 
-.project-container a:hover, .project-container a:active
+/*.project-container*/ a:hover, /*.project-container*/ a:active
 {
-  background-color: #0D3965;
+  background-color: #D7C600;
 }
 
 
