@@ -2,15 +2,15 @@ $(document).ready(
     function()
     {
 			$('#header').load("header.html", headerLoaded);
-			$('#header').ready(function(){alert("Ready INSIDE");});
+			$('#linkHome').ready(function(){alert("Ready INSIDE");});
     }
   );
 
-$('#header').ready(function(){alert("Ready OUTSIDE");});
+$('#linkHome').ready(function(){alert("Ready OUTSIDE");});
   
 var headerLoaded = function()
 {
-  displayVersion("1200");
+  displayVersion("1201");
 	//addPadding();
 	colorTab();
 	resizeTabs();
