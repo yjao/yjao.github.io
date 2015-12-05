@@ -77,6 +77,11 @@ a:hover, a:active
   width: 90%;*/
 }
 
+.project-container p
+{
+  text-align: left;
+}
+
 
 /* tablet: portrait mode+ */
 @media (min-width: 600px)
