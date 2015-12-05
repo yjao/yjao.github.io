@@ -64,6 +64,8 @@ body
 
 /*.project-container*/ a:link, /*.project-container*/ a:visited
 {
+  padding: 1px 10px;
+  display: inline-block;
   background-color: #58A5F1;
   border-radius: 2em;
   color: white;
