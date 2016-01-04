@@ -1,3 +1,143 @@
+body div
+{
+  /*border: 1px solid black;*/
+  vertical-align: middle;
+}
+
+#main
+{
+  height: 100%;
+}
+
+#left-column
+{
+  display: inline-block;
+  width: 40%;
+}
+
+#banner
+{
+  text-align: center;
+  display: block;
+}
+
+#banner img
+{
+  width: 80%;
+  height: auto;
+}
+
+.blocks div
+{
+  padding: 10px;
+  text-align: left;
+  display: block;
+}
+
+#right-column
+{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#schedule
+{
+  /*content:url("../img/w_sc.png");
+  background-image: url("../img/w_sc.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;*/
+  width: 100%;
+}
+
+.blocks a:link, .blocks a:visited
+{
+  padding: 1px 10px;
+  display: inline-block;
+  background-color: black;
+  border-radius: 2em;
+  color: white;
+}
+.blocks a:hover, .blocks a:active
+{
+  background-color: gray;
+}
+
+.blocks img
+{
+  background-repeat: no-repeat;
+  width: 100px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.inf151 img
+{
+  content:url("../img/w_i_inf151.png");
+}
+.inf151 a:link, .inf151 a:visited
+{
+  background-color: #990000;
+}
+.inf151 a:hover, .inf151 a:active
+{
+  background-color: #ff3333;
+}
+
+.inf131 img
+{
+  content:url("../img/w_i_inf131.png");
+}
+.inf131 a:link, .inf131 a:visited
+{
+  background-color: black;
+}
+.inf131 a:hover, .inf131 a:active
+{
+  background-color: gray;
+}
+
+.ics169b img
+{
+  content:url("../img/w_i_ics169b.png");
+}
+.ics169b a:link, .ics169b a:visited
+{
+  background-color: #e269d7;
+}
+.ics169b a:hover, .ics169b a:active
+{
+  background-color: #f2bfee;
+}
+
+.cs171 img
+{
+  content:url("../img/w_i_cs171.png");
+}
+.cs171 a:link, .cs171 a:visited
+{
+  background-color: #990000;
+}
+.cs171 a:hover, .cs171 a:active
+{
+  background-color: #b30000;
+}
+
+.kadho img
+{
+  content:url("../img/w_i_kadho.png");
+}
+.kadho a:link, .kadho a:visited
+{
+  background-color: black;
+}
+.kadho a:hover, .kadho a:active
+{
+  background-color: gray;
+}
+
 /* mobile: landscape mode+ */
 
 body
