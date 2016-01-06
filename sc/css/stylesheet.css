@@ -105,11 +105,11 @@ body div
 }
 .ics169b a:link, .ics169b a:visited
 {
-  background-color: #e269d7;
+  background-color: #ed98e5;
 }
 .ics169b a:hover, .ics169b a:active
 {
-  background-color: #f2bfee;
+  background-color: #f7d4f5;
 }
 
 .cs171 img
@@ -125,17 +125,18 @@ body div
   background-color: #b30000;
 }
 
+
 .kadho img
 {
   content:url("../img/w_i_kadho.png");
 }
 .kadho a:link, .kadho a:visited
 {
-  background-color: black;
+  background-color: #495c8a;
 }
 .kadho a:hover, .kadho a:active
 {
-  background-color: gray;
+  background-color: #8a9ac2;
 }
 
 /* mobile: landscape mode+ */
@@ -148,85 +149,6 @@ body
   color: black;
 	text-align: center;
 	font-size: 2em;
-}
-
-a:link, a:visited
-{
-  padding: 1px 10px;
-  display: inline-block;
-  background-color: #58A5F1;
-  border-radius: 2em;
-  color: white;
-}
-
-a:hover, a:active
-{
-  background-color: #D7C600;
-}
-
-#backToTop
-{
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-
-#main-content div
-{
-  margin-top: 20px;
-}
-
-#profile
-	{
-		background-image: url("../img/profile.png");
-    background-size: cover;
-		width: 150px;
-    height: 150px;
-    border: solid white 2px;
-    border-radius: 50%;
-    margin: auto;
-    vertical-align: top;
-	}
-
-#blurb
-{
-  text-align: left;
-}
-
-.project-container
-{
-  display: inline-block;
-  background-color: #0D3965;
-  padding: 20px;
-  border-radius: 1em;
-  color: white;
-}
-
-.project-container div
-{
-  display: inline-block;
-  padding: 20px;
-  vertical-align: middle;
-}
-
-.project-col1 img
-{
-  margin: auto;
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-col2
-{
-  /*vertical-align: top;
-  display: inline-block;
-  width: 90%;*/
-}
-
-.project-container p
-{
-  text-align: left;
 }
 
 
@@ -248,17 +170,6 @@ a:hover, a:active
   {
     font-size: 1.5em;
   }
-  
-	#main-content div
-	{
-		display: inline-block;
-	}
-	
-	#blurb
-	{
-	  padding-left: 20px;
-		width: 70%;
-	}
 }
 
 
@@ -268,15 +179,5 @@ a:hover, a:active
   body
   {
     font-size: 1.3em;
-  }
-  
-  .project-col1
-  {
-    width: 30%;
-  }
-  
-  .project-col2
-  {
-    width: 60%;
   }
 }
