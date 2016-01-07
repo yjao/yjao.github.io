@@ -2,6 +2,7 @@ body div
 {
   /*border: 1px solid black;*/
   vertical-align: middle;
+  padding: 10px;
 }
 
 #main
@@ -23,8 +24,10 @@ body div
 
 #banner img
 {
+  float: right;
   width: 80%;
   height: auto;
+  margin: 10px;
 }
 
 .blocks div
@@ -32,6 +35,12 @@ body div
   padding: 10px;
   text-align: left;
   display: block;
+}
+
+#links
+{
+  display: inline-block;
+  width: 100%;
 }
 
 #right-column
@@ -51,15 +60,16 @@ body div
   width: 100%;
 }
 
-.blocks a:link, .blocks a:visited
+a:link, a:visited
 {
+  margin: 1px;
   padding: 1px 10px;
   display: inline-block;
   background-color: black;
   border-radius: 2em;
   color: white;
 }
-.blocks a:hover, .blocks a:active
+a:hover, a:active
 {
   background-color: gray;
 }
@@ -81,10 +91,10 @@ body div
 {
   background-color: #990000;
 }
-.inf151 a:hover, .inf151 a:active
+/*.inf151 a:hover, .inf151 a:active
 {
   background-color: #ff3333;
-}
+}*/
 
 .inf131 img
 {
@@ -94,10 +104,10 @@ body div
 {
   background-color: black;
 }
-.inf131 a:hover, .inf131 a:active
+/*.inf131 a:hover, .inf131 a:active
 {
   background-color: gray;
-}
+}*/
 
 .ics169b img
 {
@@ -107,10 +117,10 @@ body div
 {
   background-color: #ed98e5;
 }
-.ics169b a:hover, .ics169b a:active
+/*.ics169b a:hover, .ics169b a:active
 {
   background-color: #f7d4f5;
-}
+}*/
 
 .cs171 img
 {
@@ -120,10 +130,10 @@ body div
 {
   background-color: #990000;
 }
-.cs171 a:hover, .cs171 a:active
+/*.cs171 a:hover, .cs171 a:active
 {
   background-color: #b30000;
-}
+}*/
 
 
 .kadho img
@@ -134,50 +144,17 @@ body div
 {
   background-color: #495c8a;
 }
-.kadho a:hover, .kadho a:active
+/*.kadho a:hover, .kadho a:active
 {
   background-color: #8a9ac2;
-}
+}*/
 
 /* mobile: landscape mode+ */
 
 body
 {
-  padding: 10px;
   background-color: #ffffcc;
   font-family: Calibri, Helvetica, sans-serif;
   color: black;
 	text-align: center;
-	font-size: 2em;
-}
-
-
-/* tablet: portrait mode+ */
-@media (min-width: 600px)
-{
-  body
-  {
-    padding: 10px 10%;
-    font-size: 1.8em;
-  }
-}
-
-
-/* tablet: landscape mode+ */
-@media (min-width: 768px)
-{
-  body
-  {
-    font-size: 1.5em;
-  }
-}
-
-
-/* desktop+ */
-@media (min-width: 1024px)
-{
-  body
-  {
-    font-size: 1.3em;
-  }
 }
