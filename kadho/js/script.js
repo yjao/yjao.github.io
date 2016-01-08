@@ -4,7 +4,7 @@
 var Submit = function()
 {
   alert("version: 11:57")
-  alert($fullname);
+  alert($('#fullname').val());
 }
 
 
