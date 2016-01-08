@@ -3,7 +3,8 @@
 
 var Submit = function()
 {
-  alert("!!!");
+  alert("version: 11:57")
+  alert($fullname);
 }
 
 
