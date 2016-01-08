@@ -4,7 +4,7 @@
 var Submit = function()
 {
   var gateway = "https://mapi.alipay.com/gateway.do"
-  displayVersion(1249);
+  displayVersion(1254);
   
   alert(hex_md5($('#fullname').val()));
   
@@ -15,7 +15,7 @@ var Submit = function()
 $(document).ready(
     function()
     {
-      $.getScript("md5.js");
+      $.getScript("js/md5.js");
     }
   );
 
