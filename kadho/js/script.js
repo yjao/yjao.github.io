@@ -4,9 +4,9 @@
 var Submit = function()
 {
   var gateway = "https://mapi.alipay.com/gateway.do"
-  displayVersion(1254);
+  displayVersion(159);
   
-  alert(hex_md5($('#fullname').val()));
+  alert(hex_md5($('#username').val()));
   
   
 }
