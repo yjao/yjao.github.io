@@ -1,3 +1,14 @@
+
+
+
+var Submit = function()
+{
+  alert("!!!");
+}
+
+
+
+
 $(document).ready(
     function()
     {
