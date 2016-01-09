@@ -1,0 +1,15 @@
+
+#links-block
+{
+  display: inline-block;
+  width: 40%;
+}
+
+#schedules-block
+{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+}
+
