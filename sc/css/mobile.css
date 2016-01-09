@@ -23,8 +23,12 @@ a:link, a:visited
 
 .blocks div
 {
-  width: 20%;
   padding: 10px;
   text-align: center;
   display: inline-block;
+}
+.blocks img
+{
+  width: 200px;
+  padding-bottom: 10px;
 }

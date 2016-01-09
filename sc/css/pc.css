@@ -34,5 +34,7 @@ a:link, a:visited
 }
 .blocks img
 {
+  width: 100px;
   float: left;
+  padding-right: 5px;
 }

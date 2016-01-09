@@ -45,10 +45,7 @@ a:link, a:visited
 .blocks img
 {
   background-repeat: no-repeat;
-  width: 100px;
   height: auto;
-  margin: 0;
-  padding-right: 5px;
 }
 
 
