@@ -10,7 +10,7 @@ $(document).ready(
       {
         //Load PC
       }
-      $("<link/>", { rel: "stylesheet", type: "text/css", href: "../css/stylesheet.css"
+      $("<link/>", { rel: "stylesheet", type: "text/css", href: "css/stylesheet.css"
         }).appendTo("head");
         
 			$('#header').load("header.html", headerLoaded);
