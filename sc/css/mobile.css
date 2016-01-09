@@ -4,7 +4,20 @@ body
   font-size: 2em;
 }
 
+#links-block
+{
+  display: block;
+  width: 100%;
+}
+
 a:link, a:visited
 {
   display: block;
+}
+
+.blocks div
+{
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
 }

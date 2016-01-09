@@ -18,3 +18,10 @@ a:link, a:visited
   display: inline-block;
   border-radius: 2em;
 }
+
+.blocks div
+{
+  padding: 10px;
+  text-align: left;
+  display: block;
+}

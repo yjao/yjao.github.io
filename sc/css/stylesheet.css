@@ -46,12 +46,6 @@ a:link, a:visited
 }
 
 
-.blocks div
-{
-  padding: 10px;
-  text-align: left;
-  display: block;
-}
 .blocks img
 {
   float: left;
