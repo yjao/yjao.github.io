@@ -153,7 +153,7 @@ a:hover, a:active
 
 body
 {
-  /*background-image: url("../img/w16_bg.png");*/
+  background-image: url("../img/w16_bg.png");
   font-family: Calibri, Helvetica, sans-serif;
   color: black;
 	text-align: center;

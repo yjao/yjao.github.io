@@ -1,16 +1,17 @@
 $(document).ready(
     function()
     {
+      var cssLink;
       var platform = navigator.platform;
       if (platform == "iPhone" || platform == "Linux armv7l")
       {
-        //Load Mobile
+        cssLink = "css/stylesheet.css";
       }
       else if (platform == "Win32")
       {
-        //Load PC
+        cssLink = "css/stylesheet.css";
       }
-      $("<link/>", { rel: "stylesheet", type: "text/css", href: "css/stylesheet.css"
+      $("<link/>", { rel: "stylesheet", type: "text/css", href: cssLink
         }).appendTo("head");
         
 			$('#header').load("header.html", headerLoaded);
