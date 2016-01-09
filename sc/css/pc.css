@@ -13,3 +13,8 @@
   vertical-align: middle;
 }
 
+a:link, a:visited
+{
+  display: inline-block;
+  border-radius: 2em;
+}

@@ -15,9 +15,6 @@ a:link, a:visited
 {
   margin: 1px;
   padding: 1px 10px;
-  display: inline-block;
-  background-color: black;
-  border-radius: 2em;
   color: white;
 }
 
