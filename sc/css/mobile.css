@@ -1,7 +1,7 @@
 
 body
 {
-  font-size: 2em;
+  font-size: 3em;
 }
 body div
 {
@@ -17,6 +17,7 @@ body div
 a:link, a:visited
 {
   display: block;
+  margin: 10px;
 }
 
 .blocks div
