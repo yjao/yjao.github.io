@@ -3,6 +3,10 @@ body
 {
   font-size: 2em;
 }
+body div
+{
+  vertical-align: top;
+}
 
 #links-block
 {

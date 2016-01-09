@@ -6,8 +6,6 @@
 
 body div
 {
-  /*border: 1px solid black;*/
-  vertical-align: middle;
   padding: 10px;
 }
 
@@ -48,7 +46,6 @@ a:link, a:visited
 
 .blocks img
 {
-  float: left;
   background-repeat: no-repeat;
   width: 100px;
   height: auto;

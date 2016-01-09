@@ -1,4 +1,9 @@
 
+body div
+{
+  vertical-align: middle;
+}
+
 #links-block
 {
   display: inline-block;
@@ -24,4 +29,8 @@ a:link, a:visited
   padding: 10px;
   text-align: left;
   display: block;
+}
+.blocks img
+{
+  float: left;
 }
