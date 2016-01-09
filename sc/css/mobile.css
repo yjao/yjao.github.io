@@ -18,6 +18,7 @@ a:link, a:visited
 {
   display: block;
   margin: 10px;
+  padding: 5px;
 }
 
 .blocks div
