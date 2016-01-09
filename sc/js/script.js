@@ -1,6 +1,18 @@
 $(document).ready(
     function()
     {
+      var platform = navigator.platform;
+      if (platform == "iPhone" || platform == "Linux armv7l")
+      {
+        //Load Mobile
+      }
+      else if (platform == "Win32")
+      {
+        //Load PC
+      }
+      $("<link/>", { rel: "stylesheet", type: "text/css", href: "../css/stylesheet.css"
+        }).appendTo("head");
+        
 			$('#header').load("header.html", headerLoaded);
     }
   );
