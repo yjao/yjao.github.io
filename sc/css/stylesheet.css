@@ -55,11 +55,11 @@ a:link, a:visited
 }
 .inf151 a:link, .inf151 a:visited
 {
-  background-color: #990000;
+  background-color: rgb(172,28,28);
 }
 .inf151 a:hover, .inf151 a:active
 {
-  background-color: #ff3333;
+  background-color: rgb(255,5,5);
 }
 
 
@@ -69,11 +69,11 @@ a:link, a:visited
 }
 .inf131 a:link, .inf131 a:visited
 {
-  background-color: black;
+  background-color: rgb(97,117,47);
 }
 .inf131 a:hover, .inf131 a:active
 {
-  background-color: gray;
+  background-color: rgb(138,255,21);
 }
 
 
@@ -83,11 +83,11 @@ a:link, a:visited
 }
 .ics169b a:link, .ics169b a:visited
 {
-  background-color: #ed98e5;
+  background-color: rgb(232,126,235);
 }
 .ics169b a:hover, .ics169b a:active
 {
-  background-color: #f7d4f5;
+  background-color: rgb(255,67,242);
 }
 
 
@@ -97,11 +97,11 @@ a:link, a:visited
 }
 .cs171 a:link, .cs171 a:visited
 {
-  background-color: #990000;
+  background-color: rgb(173,82,7);
 }
 .cs171 a:hover, .cs171 a:active
 {
-  background-color: #b30000;
+  background-color: rgb(255,138,21);
 }
 
 
@@ -111,11 +111,11 @@ a:link, a:visited
 }
 .kadho a:link, .kadho a:visited
 {
-  background-color: #495c8a;
+  background-color: rgb(29,51,121);
 }
 .kadho a:hover, .kadho a:active
 {
-  background-color: #8a9ac2;
+  background-color: rgb(47,87,255);
 }
 
 
