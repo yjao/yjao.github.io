@@ -1,0 +1,128 @@
+.clear
+{
+  clear: both;
+  display: block;
+}
+
+body div
+{
+  padding: 10px;
+}
+
+a:link, a:visited
+{
+  color: white;
+}
+
+#main
+{
+  height: 100%;
+}
+
+#banner
+{
+  text-align: center;
+  display: block;
+}
+#banner img
+{
+  width: 80%;
+  height: auto;
+  margin: 10px;
+}
+
+
+#schedule
+{
+  /*content:url("../img/w_sc.png");
+  background-image: url("../img/w_sc.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;*/
+  width: 100%;
+}
+
+
+.blocks img
+{
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+
+.inf151 img
+{
+  content:url("../img/w_i_inf151.png");
+}
+.inf151 a:link, .inf151 a:visited
+{
+  background-color: rgb(172,28,28);
+}
+.inf151 a:hover, .inf151 a:active
+{
+  background-color: rgb(255,5,5);
+}
+
+
+.inf131 img
+{
+  content:url("../img/w_i_inf131.png");
+}
+.inf131 a:link, .inf131 a:visited
+{
+  background-color: rgb(97,117,47);
+}
+.inf131 a:hover, .inf131 a:active
+{
+  background-color: rgb(123,188,27);
+}
+
+
+.ics169b img
+{
+  content:url("../img/w_i_ics169b.png");
+}
+.ics169b a:link, .ics169b a:visited
+{
+  background-color: rgb(232,126,235);
+}
+.ics169b a:hover, .ics169b a:active
+{
+  background-color: rgb(255,67,242);
+}
+
+
+.cs171 img
+{
+  content:url("../img/w_i_cs171.png");
+}
+.cs171 a:link, .cs171 a:visited
+{
+  background-color: rgb(173,82,7);
+}
+.cs171 a:hover, .cs171 a:active
+{
+  background-color: rgb(255,138,21);
+}
+
+
+.kadho img
+{
+  content:url("../img/w_i_kadho.png");
+}
+.kadho a:link, .kadho a:visited
+{
+  background-color: rgb(29,51,121);
+}
+.kadho a:hover, .kadho a:active
+{
+  background-color: rgb(47,87,255);
+}
+
+
+body
+{
+  background-image: url("../img/s16_bg.png");
+  font-family: Calibri, Helvetica, sans-serif;
+  color: black;
+	text-align: center;
+}
