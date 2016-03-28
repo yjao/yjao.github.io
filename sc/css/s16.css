@@ -49,61 +49,70 @@ a:link, a:visited
 }
 
 
-.inf151 img
+.afm40c img
 {
-  content:url("../img/w_i_inf151.png");
+  content:url("../img/afm40c.png");
 }
-.inf151 a:link, .inf151 a:visited
+.afm40c a:link, .afm40c a:visited
 {
-  background-color: rgb(172,28,28);
+  background-color: rgb(98, 60, 194);
 }
-.inf151 a:hover, .inf151 a:active
+.afm40c a:hover, .afm40c a:active
 {
-  background-color: rgb(255,5,5);
-}
-
-
-.inf131 img
-{
-  content:url("../img/w_i_inf131.png");
-}
-.inf131 a:link, .inf131 a:visited
-{
-  background-color: rgb(97,117,47);
-}
-.inf131 a:hover, .inf131 a:active
-{
-  background-color: rgb(123,188,27);
+  background-color: rgb(146, 64, 255);
 }
 
-
-.ics169b img
+.inf132 img
 {
-  content:url("../img/w_i_ics169b.png");
+  content:url("../img/inf132.png");
 }
-.ics169b a:link, .ics169b a:visited
+.inf132 a:link, .inf132 a:visited
 {
-  background-color: rgb(232,126,235);
+  background-color: rgb(73, 145, 233);
 }
-.ics169b a:hover, .ics169b a:active
+.inf132 a:hover, .inf132 a:active
 {
-  background-color: rgb(255,67,242);
-}
-
-
-.cs171 img
-{
-  content:url("../img/w_i_cs171.png");
-}
-.cs171 a:link, .cs171 a:visited
-{
-  background-color: rgb(173,82,7);
-}
-.cs171 a:hover, .cs171 a:active
-{
-  background-color: rgb(255,138,21);
+  background-color: rgb(113, 181, 255);
 }
 
+.ics139w img
+{
+  content:url("../img/ics139w.png");
+}
+.ics139w a:link, .ics139w a:visited
+{
+  background-color: rgb(173, 82, 7);
+}
+.ics139w a:hover, .ics139w a:active
+{
+  background-color: rgb(255, 138, 21);
+}
+
+.scs5a img
+{
+  content:url("../img/scs5a.png");
+}
+.scs5a a:link, .scs5a a:visited
+{
+  background-color: rgb(97, 117, 47);
+}
+.scs5a a:hover, .scs5a a:active
+{
+  background-color: rgb(123, 188, 27);
+}
+
+.flm144 img
+{
+  content:url("../img/flm144.png");
+}
+.flm144 a:link, .flm144 a:visited
+{
+  background-color: rgb(232, 126, 235);
+}
+.flm144 a:hover, .flm144 a:active
+{
+  background-color: rgb(255, 67, 242);
+}
 
 .kadho img
 {
@@ -121,7 +130,10 @@ a:link, a:visited
 
 body
 {
-  background-image: url("../img/s16_bg.png");
+  background-color: rgb(251, 246, 253);
+  background-image: url("../img/s16_bg.jpg");
+  background-size: 50% auto;
+  background-repeat: no-repeat;
   font-family: Calibri, Helvetica, sans-serif;
   color: black;
 	text-align: center;
