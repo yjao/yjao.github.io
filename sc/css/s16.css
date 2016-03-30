@@ -62,19 +62,6 @@ a:link, a:visited
   background-color: rgb(146, 64, 255);
 }
 
-.inf132 img
-{
-  content:url("../img/inf132.png");
-}
-.inf132 a:link, .inf132 a:visited
-{
-  background-color: rgb(73, 145, 233);
-}
-.inf132 a:hover, .inf132 a:active
-{
-  background-color: rgb(113, 181, 255);
-}
-
 .ics139w img
 {
   content:url("../img/ics139w.png");
